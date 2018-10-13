@@ -1,0 +1,512 @@
+body{
+	background-color: black;	
+}
+
+.id, .idn, .idh{
+	color: white;
+	margin-bottom: 20px;
+}
+
+nav{
+	border: 0px !important;
+}
+
+.idh{
+	font-size: 65px;
+	margin-bottom: 30px;
+}
+
+.navbar{
+	color: white;
+	background-color: black;
+	margin-bottom: 40px;
+	padding-top: 10px;
+}
+
+.navbar li{
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.navbar-brand{
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar li{
+		font-size: 28px;
+		margin-right: 60px;
+		margin-bottom: 0px;
+	}
+}
+
+#aboutme a{
+	color: black;
+}
+
+.bi{
+	margin-top: 50px;
+}
+
+.ii{
+	font-size: 25px !important;
+	margin-right: 10px;
+}
+
+.am h1, .sk h1, #projects h1, #hireme h1, #contactme h1{
+	color: white;
+}
+
+.am p{
+	font-size: 18px;
+	text-align: justify;
+	color: 	#BEBEBE;
+	margin-bottom: 20px;
+}
+
+.k{
+	margin-bottom: 50px; 
+}
+
+.dr:hover{
+	background-color: darkgrey;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+#myBtn:hover{
+	background-color: darkgrey;
+}
+
+.am{
+	margin-bottom: 40px;
+}
+
+.cover {
+  width: 100%;
+  height: 9px;
+  border: 1px solid white;
+}
+
+.skills {
+  text-align: right;
+  color: black;
+}
+
+.html {
+	width: 90%;
+	height: 8px; 
+	background-color: white;
+}
+
+.css {
+	width: 80%;
+	height: 8px; 
+	background-color: white;
+}
+
+.javascript {
+	width: 60%;
+	height: 8px; 
+	background-color: white;
+}
+
+.jquery {
+	width: 40%;
+	height: 8px; 
+	background-color: white;
+}
+
+.bootstrap {
+	width: 70%;
+	height: 8px; 
+	background-color: white;
+}
+
+.php {
+	width: 40%;
+	height: 8px; 
+	background-color: white;
+}
+
+.mysql {
+	width: 30%;
+	height: 8px; 
+	background-color: white;
+}
+
+.c {
+	width: 60%;
+	height: 8px; 
+	background-color: white;
+}
+
+.cpp {
+	width: 70%;
+	height: 8px; 
+	background-color: white;
+}
+
+.java {
+	width: 30%;
+	height: 8px; 
+	background-color: white;
+}
+
+.python {
+	width: 40%;
+	height: 8px; 
+	background-color: white;
+}
+
+.datas {
+	width: 30%;
+	height: 8px; 
+	background-color: white;
+}
+
+.macing {
+	width: 40%;
+	height: 8px; 
+	background-color: white;
+}
+
+.artice {
+	width: 20%;
+	height: 8px; 
+	background-color: white;
+}
+
+h3{
+	color: #BEBEBE;
+}
+
+.sdh, .wdh, .lh, .ah, .oh{
+	color: lightgrey;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.bskills{
+	margin-bottom: 50px;
+}
+
+.lang, .ach, .o{
+	margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+	.lang, .ach{
+		border-right: 1px solid white;
+	}
+	.lang h3{
+		margin-left: 100px;
+	}
+	.ach h3{
+		margin-left: 50px;
+	}
+	.o h3{
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.wds{
+		margin-bottom: 50px;
+	}
+	.mailto, .tel{
+		margin: auto;
+	}
+	.tel{
+		margin-top: 18px;
+	}
+	.idh{
+		font-size: 55px;
+	}
+}
+
+#projects img{
+	height: 250px;
+	filter: grayscale(100%);
+	transition: .5s ease;
+}
+
+#projects p{
+	font-size: 20px;
+}
+
+#projects a{
+	text-decoration: none;
+}
+
+.pro{
+	margin-top: 50px;
+}
+
+.ptr{
+	margin-bottom: 50px;
+}
+
+.m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #BEBEBE;
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover, .m6:hover, .m7:hover, .m8:hover{
+	background-color: darkgrey;
+}
+
+.mtdl:hover  .p1{
+  opacity: 0.3;
+}
+
+.mtdl:hover .m1 {
+  opacity: 1;
+}
+
+.t2s:hover  .p2{
+  opacity: 0.3;
+}
+
+.t2s:hover .m2 {
+  opacity: 1;
+}
+
+.gm:hover  .p3{
+  opacity: 0.3;
+}
+
+.gm:hover .m3 {
+  opacity: 1;
+}
+
+.mcf:hover  .p4{
+  opacity: 0.3;
+}
+
+.mcf:hover .m4 {
+  opacity: 1;
+}
+
+.rb:hover  .p5{
+  opacity: 0.3;
+}
+
+.rb:hover .m5 {
+  opacity: 1;
+}
+
+.pf:hover  .p6{
+  opacity: 0.3;
+}
+
+.pf:hover .m6 {
+  opacity: 1;
+}
+
+.ws:hover  .p7{
+  opacity: 0.3;
+}
+
+.ws:hover .m7 {
+  opacity: 1;
+}
+
+.sms:hover  .p8{
+  opacity: 0.3;
+}
+
+.sms:hover .m8 {
+  opacity: 1;
+}
+
+.col2 h2, .col2 a{
+	color: black;
+	text-decoration: none;
+}
+
+.col2 h2{
+	margin-bottom: 50px;
+}
+
+.col2 p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.col2 i{
+	font-size: 25px;
+}
+
+.col2:hover{
+	box-shadow: 5px 5px 10px grey;
+}
+
+.col2 p:hover{
+	font-size: 22px;
+}
+
+.col1, .col3{
+	height: 317px;
+	background-color: lightgrey;
+	border: 1px solid #f1f1f1;
+}
+
+
+.flip-box {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: lightgrey;
+  color: black;
+  overflow: hidden;
+}
+
+.flip-box-front img{
+	filter: grayscale(100%);
+}
+
+.flip-box-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+#hireme{
+	margin-bottom: 50px;
+}
+
+#m{
+	margin-bottom: 0px;
+}
+
+.typeb{
+	height: 100px;
+}
+
+address{
+	margin-left: 30px;
+	font-size: 18px;
+	color: white;
+}
+
+.addr{
+	background-color: black;
+	transition: 0.3s;
+}
+
+.addr:hover{
+	background-color: white;
+}
+
+.addr:hover address{
+	color: black;
+}
+
+.addr:hover address h3{
+	color: black;
+}
+
+.mailto{
+	background-color: black;
+	transition: 0.3s;
+	color: white;
+	padding-bottom: 11px;
+}
+
+.tel{
+	background-color: black;
+	transition: 0.3s;
+	color: white;
+	padding-bottom: 11px;
+}
+
+.fa-mobile{
+	font-size: 25px !important;
+}
+
+.mailto h4, .tel h4{
+	margin-bottom: 13px;
+}
+
+.fbni, .sng{
+	font-size: 75px;
+}
+
+.fbni{
+	margin-top: 0px;
+}
+
+.fbni a, .sng a{
+	color: silver;
+}
+
+.fbni a:hover, .sng a:hover{
+	color: white;
+}
+
+.footer{
+	margin-top: 50px;
+	color: white;
+}
+
+.footer a{
+	color: darkgrey;
+	text-decoration: none;
+}
+
+.footer a:hover{
+	color: white;
+}
+
+.footer p{
+	margin-top: 10px !important;
+}
+
